@@ -72,18 +72,16 @@ public class DeviceController {
         return deviceService.updateDeviceModel(id,modelId);
     }
 
-    /***
-     * 查看日志信息
+    /**
+     * 后置异常通知接口
      * @return
      */
-    @PostMapping("logError")
+    @GetMapping("findAfterThrow")
     @ResponseBody
-    public Result logError(){
-        log.error("hello world,error log");
-        log.info("hello world,info log");
-        log.warn("hello world,warn log");
-        log.debug("hello world,debug log");
-        return Result.instanceFailResultMsg("error");
-    }
+   public Result findAfterThrow(String id){
+        int a=0;
+        int b= 1/a;
+        return Result.instanceFailResult("success");
+   }
 
 }
