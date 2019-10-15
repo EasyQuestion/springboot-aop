@@ -1,0 +1,4 @@
+INSERT INTO device_alarm (doid, device_name, alarm_msg, alarm_time, gmt_create, gmt_modify, id) VALUES ('004005', 'A座B1层女卫门口烟雾报警', '告警原因：烟雾超过告警值', '2019-07-02 10:00:02', '2019-07-02 10:00:02', '2019-07-02 10:00:02', 1);
+INSERT INTO device_alarm (doid, device_name, alarm_msg, alarm_time, gmt_create, gmt_modify, id) VALUES ('004005', 'A座B1层女卫门口烟雾报警', '告警原因：烟雾超过告警值', '2019-07-01 10:00:02', '2019-07-01 10:00:02', '2019-07-01 10:00:02', 2);
+INSERT INTO device_alarm (doid, device_name, alarm_msg, alarm_time, gmt_create, gmt_modify, id) VALUES ('001001', 'B座B2层主配电室温感', '告警原因：温度过高', '2019-07-02 10:00:02', '2019-07-02 10:00:02', '2019-07-02 10:00:02', 3);
+INSERT INTO device_alarm (doid, device_name, alarm_msg, alarm_time, gmt_create, gmt_modify, id) VALUES ('002001', 'B座2层3206商铺厨房燃气', '燃气报警', '2019-07-02 03:11:45', '2019-07-02 03:11:45', '2019-07-02 03:11:45', 4);
