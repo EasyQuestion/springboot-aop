@@ -1916,3 +1916,199 @@
 ===2019-10-15 15:05:33.022 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
 ===2019-10-15 15:05:33.025 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:597 - Closing JPA EntityManagerFactory for persistence unit 'default'
 ===2019-10-15 15:05:33.031 INFO  com.alibaba.druid.pool.DruidDataSource Line:1823 - {dataSource-1} closed
+===2019-10-15 15:05:39.009 INFO  com.thingjs.soho.SoHoApplication Line:50  - Starting SoHoApplication on DESKTOP-LRSMUS4 with PID 14232 (E:\myProjects\springboot-learn\aop\target\classes started by uinnova in E:\myProjects\springboot-learn\aop)
+===2019-10-15 15:05:39.009 INFO  com.thingjs.soho.SoHoApplication Line:650 - The following profiles are active: dev
+===2019-10-15 15:05:40.061 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+===2019-10-15 15:05:40.089 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:182 - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+===2019-10-15 15:05:40.506 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9b4e8664] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2019-10-15 15:05:40.678 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$1aced396] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2019-10-15 15:05:41.150 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+===2019-10-15 15:05:41.186 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+===2019-10-15 15:05:41.198 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+===2019-10-15 15:05:41.198 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.21]
+===2019-10-15 15:05:41.372 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+===2019-10-15 15:05:41.372 INFO  org.springframework.web.context.ContextLoader Line:283 - Root WebApplicationContext: initialization completed in 2316 ms
+===2019-10-15 15:05:41.522 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+===2019-10-15 15:05:41.969 INFO  com.alibaba.druid.pool.DruidDataSource Line:928 - {dataSource-1} inited
+===2019-10-15 15:05:42.432 INFO  org.hibernate.Version Line:46  - HHH000412: Hibernate Core {5.3.10.Final}
+===2019-10-15 15:05:42.434 INFO  org.hibernate.cfg.Environment Line:213 - HHH000206: hibernate.properties not found
+===2019-10-15 15:05:42.665 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+===2019-10-15 15:05:42.860 INFO  org.hibernate.dialect.Dialect Line:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+===2019-10-15 15:05:43.076 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+===2019-10-15 15:05:44.570 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+===2019-10-15 15:05:45.712 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:80  - Context refreshed
+===2019-10-15 15:05:45.732 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:83  - Found {0} custom documentation plugin(s)
+===2019-10-15 15:05:45.743 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:53  - Scanning for api listing references
+===2019-10-15 15:05:45.748 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method bindDeviceToModel was device-controller
+===2019-10-15 15:05:45.751 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: bindDeviceToModel belongs to groups: [[ResourceGroup{groupName='device-controller', position=0, controller=com.thingjs.soho.device.controller.DeviceController}]] 
+===2019-10-15 15:05:45.752 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findAfterThrow was device-controller
+===2019-10-15 15:05:45.752 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: findAfterThrow belongs to groups: [[ResourceGroup{groupName='device-controller', position=0, controller=com.thingjs.soho.device.controller.DeviceController}]] 
+===2019-10-15 15:05:45.752 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findDeviceByType was device-controller
+===2019-10-15 15:05:45.753 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: findDeviceByType belongs to groups: [[ResourceGroup{groupName='device-controller', position=0, controller=com.thingjs.soho.device.controller.DeviceController}]] 
+===2019-10-15 15:05:45.753 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findDeviceDetailByModelId was device-controller
+===2019-10-15 15:05:45.753 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: findDeviceDetailByModelId belongs to groups: [[ResourceGroup{groupName='device-controller', position=0, controller=com.thingjs.soho.device.controller.DeviceController}]] 
+===2019-10-15 15:05:45.774 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:84  - Created resource listing Path: /default/device-controller Description: device-controller Position: 0
+===2019-10-15 15:05:45.801 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.801 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.807 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.807 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.848 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.848 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.850 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.850 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.853 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/bindDeviceToModel.com.thingjs.soho.device.controller.DeviceController.bindDeviceToModel.DefaultGenericTypeNamingStrategy
+===2019-10-15 15:05:45.853 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/bindDeviceToModel.com.thingjs.soho.device.controller.DeviceController.bindDeviceToModel.DefaultGenericTypeNamingStrategy
+===2019-10-15 15:05:45.866 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method bindDeviceToModel was device-controller
+===2019-10-15 15:05:45.869 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method bindDeviceToModel was device-controller
+===2019-10-15 15:05:45.875 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.875 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.875 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.875 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.876 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/findAfterThrow.com.thingjs.soho.device.controller.DeviceController.findAfterThrow.DefaultGenericTypeNamingStrategy
+===2019-10-15 15:05:45.876 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/findAfterThrow.com.thingjs.soho.device.controller.DeviceController.findAfterThrow.DefaultGenericTypeNamingStrategy
+===2019-10-15 15:05:45.877 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findAfterThrow was device-controller
+===2019-10-15 15:05:45.878 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findAfterThrow was device-controller
+===2019-10-15 15:05:45.879 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.879 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.879 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.879 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.880 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/findDeviceByType.com.thingjs.soho.device.controller.DeviceController.findDeviceByType.DefaultGenericTypeNamingStrategy
+===2019-10-15 15:05:45.880 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/findDeviceByType.com.thingjs.soho.device.controller.DeviceController.findDeviceByType.DefaultGenericTypeNamingStrategy
+===2019-10-15 15:05:45.881 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findDeviceByType was device-controller
+===2019-10-15 15:05:45.882 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findDeviceByType was device-controller
+===2019-10-15 15:05:45.883 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.883 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.883 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.883 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:05:45.884 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/findDeviceDetailById.com.thingjs.soho.device.controller.DeviceController.findDeviceDetailByModelId.DefaultGenericTypeNamingStrategy
+===2019-10-15 15:05:45.884 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/findDeviceDetailById.com.thingjs.soho.device.controller.DeviceController.findDeviceDetailByModelId.DefaultGenericTypeNamingStrategy
+===2019-10-15 15:05:45.885 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findDeviceDetailByModelId was device-controller
+===2019-10-15 15:05:45.885 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findDeviceDetailByModelId was device-controller
+===2019-10-15 15:05:45.926 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+===2019-10-15 15:05:45.954 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+===2019-10-15 15:05:45.957 INFO  com.thingjs.soho.SoHoApplication Line:59  - Started SoHoApplication in 7.513 seconds (JVM running for 8.686)
+===2019-10-15 15:05:53.038 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+===2019-10-15 15:05:53.039 INFO  org.springframework.web.servlet.DispatcherServlet Line:524 - Initializing Servlet 'dispatcherServlet'
+===2019-10-15 15:05:53.055 INFO  org.springframework.web.servlet.DispatcherServlet Line:546 - Completed initialization in 16 ms
+===2019-10-15 15:05:53.182 INFO  com.thingjs.soho.config.WebLogAspect Line:135 - 执行环绕通知的目标方法：com.thingjs.soho.device.controller.DeviceController.findDeviceDetailByModelId
+===2019-10-15 15:05:53.182 INFO  com.thingjs.soho.config.WebLogAspect Line:137 - ARGS : [28929]
+===2019-10-15 15:05:53.182 INFO  com.thingjs.soho.config.WebLogAspect Line:66  - 前置通知
+===2019-10-15 15:05:53.182 INFO  com.thingjs.soho.config.WebLogAspect Line:68  - ARGS : [28929]
+===2019-10-15 15:05:53.183 INFO  com.thingjs.soho.config.WebLogAspect Line:75  - 代理的哪个方法：findDeviceDetailByModelId
+===2019-10-15 15:05:53.183 INFO  com.thingjs.soho.config.WebLogAspect Line:76  - 代理的类全名：com.thingjs.soho.device.controller.DeviceController
+===2019-10-15 15:05:53.183 INFO  com.thingjs.soho.config.WebLogAspect Line:79  - com.thingjs.soho.device.controller.DeviceController
+===2019-10-15 15:05:53.224 INFO  com.thingjs.soho.config.WebLogAspect Line:93  - 请求的参数为：{"modelId":"28929"}
+===2019-10-15 15:05:53.226 INFO  com.thingjs.soho.config.WebLogAspect Line:96  - 请求的参数_2为：{"modelId":["28929"]}
+===2019-10-15 15:05:53.331 INFO  com.thingjs.soho.config.WebLogAspect Line:66  - 前置通知
+===2019-10-15 15:05:53.331 INFO  com.thingjs.soho.config.WebLogAspect Line:68  - ARGS : [28929]
+===2019-10-15 15:05:53.332 INFO  com.thingjs.soho.config.WebLogAspect Line:75  - 代理的哪个方法：findDeviceDetailByModelId
+===2019-10-15 15:05:53.332 INFO  com.thingjs.soho.config.WebLogAspect Line:76  - 代理的类全名：com.thingjs.soho.device.controller.DeviceController
+===2019-10-15 15:05:53.332 INFO  com.thingjs.soho.config.WebLogAspect Line:79  - com.thingjs.soho.device.controller.DeviceController
+===2019-10-15 15:05:53.332 INFO  com.thingjs.soho.config.WebLogAspect Line:93  - 请求的参数为：{"modelId":"28929"}
+===2019-10-15 15:05:53.333 INFO  com.thingjs.soho.config.WebLogAspect Line:96  - 请求的参数_2为：{"modelId":["28929"]}
+===2019-10-15 15:05:53.337 INFO  com.thingjs.soho.config.WebLogAspect Line:141 - 执行环绕通知完成！！
+===2019-10-15 15:05:53.338 INFO  com.thingjs.soho.config.WebLogAspect Line:130 - 后置最终通知执行完毕！！
+===2019-10-15 15:05:53.338 INFO  com.thingjs.soho.config.WebLogAspect Line:111 - 第一个后置返回通知返回的结果：Result(code=-1, msg=该设备不存在, data=null)
+===2019-10-15 15:05:53.338 INFO  com.thingjs.soho.config.WebLogAspect Line:113 - ARGS : [28929]
+===2019-10-15 15:05:53.338 INFO  com.thingjs.soho.config.WebLogAspect Line:118 - 第二个后置返回通知返回的结果：Result(code=-1, msg=该设备不存在, data=null)
+===2019-10-15 15:28:16.410 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+===2019-10-15 15:28:16.413 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:597 - Closing JPA EntityManagerFactory for persistence unit 'default'
+===2019-10-15 15:28:16.422 INFO  com.alibaba.druid.pool.DruidDataSource Line:1823 - {dataSource-1} closed
+===2019-10-15 15:28:22.686 INFO  com.thingjs.soho.SoHoApplication Line:50  - Starting SoHoApplication on DESKTOP-LRSMUS4 with PID 6784 (E:\myProjects\springboot-learn\aop\target\classes started by uinnova in E:\myProjects\springboot-learn\aop)
+===2019-10-15 15:28:22.686 INFO  com.thingjs.soho.SoHoApplication Line:650 - The following profiles are active: dev
+===2019-10-15 15:28:23.774 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+===2019-10-15 15:28:23.795 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:182 - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+===2019-10-15 15:28:24.227 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dca8c438] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2019-10-15 15:28:24.390 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:330 - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$5c29116a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+===2019-10-15 15:28:24.848 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:90  - Tomcat initialized with port(s): 8080 (http)
+===2019-10-15 15:28:24.862 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+===2019-10-15 15:28:24.871 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+===2019-10-15 15:28:24.871 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.21]
+===2019-10-15 15:28:25.045 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+===2019-10-15 15:28:25.045 INFO  org.springframework.web.context.ContextLoader Line:283 - Root WebApplicationContext: initialization completed in 2313 ms
+===2019-10-15 15:28:25.189 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Line:56  - Init DruidDataSource
+===2019-10-15 15:28:25.651 INFO  com.alibaba.druid.pool.DruidDataSource Line:928 - {dataSource-1} inited
+===2019-10-15 15:28:26.110 INFO  org.hibernate.Version Line:46  - HHH000412: Hibernate Core {5.3.10.Final}
+===2019-10-15 15:28:26.112 INFO  org.hibernate.cfg.Environment Line:213 - HHH000206: hibernate.properties not found
+===2019-10-15 15:28:26.278 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+===2019-10-15 15:28:26.475 INFO  org.hibernate.dialect.Dialect Line:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+===2019-10-15 15:28:26.702 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+===2019-10-15 15:28:28.262 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+===2019-10-15 15:28:29.371 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:80  - Context refreshed
+===2019-10-15 15:28:29.389 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:83  - Found {0} custom documentation plugin(s)
+===2019-10-15 15:28:29.399 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:53  - Scanning for api listing references
+===2019-10-15 15:28:29.403 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method bindDeviceToModel was device-controller
+===2019-10-15 15:28:29.406 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: bindDeviceToModel belongs to groups: [[ResourceGroup{groupName='device-controller', position=0, controller=com.thingjs.soho.device.controller.DeviceController}]] 
+===2019-10-15 15:28:29.407 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findAfterThrow was device-controller
+===2019-10-15 15:28:29.407 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: findAfterThrow belongs to groups: [[ResourceGroup{groupName='device-controller', position=0, controller=com.thingjs.soho.device.controller.DeviceController}]] 
+===2019-10-15 15:28:29.408 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findDeviceByType was device-controller
+===2019-10-15 15:28:29.408 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: findDeviceByType belongs to groups: [[ResourceGroup{groupName='device-controller', position=0, controller=com.thingjs.soho.device.controller.DeviceController}]] 
+===2019-10-15 15:28:29.408 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findDeviceDetailByModelId was device-controller
+===2019-10-15 15:28:29.408 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: findDeviceDetailByModelId belongs to groups: [[ResourceGroup{groupName='device-controller', position=0, controller=com.thingjs.soho.device.controller.DeviceController}]] 
+===2019-10-15 15:28:29.412 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:84  - Created resource listing Path: /default/device-controller Description: device-controller Position: 0
+===2019-10-15 15:28:29.453 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.453 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.459 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.459 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.499 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.499 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.502 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.502 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.504 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/bindDeviceToModel.com.thingjs.soho.device.controller.DeviceController.bindDeviceToModel.DefaultGenericTypeNamingStrategy
+===2019-10-15 15:28:29.504 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/bindDeviceToModel.com.thingjs.soho.device.controller.DeviceController.bindDeviceToModel.DefaultGenericTypeNamingStrategy
+===2019-10-15 15:28:29.517 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method bindDeviceToModel was device-controller
+===2019-10-15 15:28:29.520 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method bindDeviceToModel was device-controller
+===2019-10-15 15:28:29.526 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.526 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.526 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.527 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.527 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/findAfterThrow.com.thingjs.soho.device.controller.DeviceController.findAfterThrow.DefaultGenericTypeNamingStrategy
+===2019-10-15 15:28:29.527 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/findAfterThrow.com.thingjs.soho.device.controller.DeviceController.findAfterThrow.DefaultGenericTypeNamingStrategy
+===2019-10-15 15:28:29.528 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findAfterThrow was device-controller
+===2019-10-15 15:28:29.529 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findAfterThrow was device-controller
+===2019-10-15 15:28:29.530 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.530 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.531 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.531 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.531 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/findDeviceByType.com.thingjs.soho.device.controller.DeviceController.findDeviceByType.DefaultGenericTypeNamingStrategy
+===2019-10-15 15:28:29.531 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/findDeviceByType.com.thingjs.soho.device.controller.DeviceController.findDeviceByType.DefaultGenericTypeNamingStrategy
+===2019-10-15 15:28:29.532 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findDeviceByType was device-controller
+===2019-10-15 15:28:29.533 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findDeviceByType was device-controller
+===2019-10-15 15:28:29.534 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.534 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.534 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.535 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.thingjs.soho.common.Result(true)
+===2019-10-15 15:28:29.535 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/findDeviceDetailById.com.thingjs.soho.device.controller.DeviceController.findDeviceDetailByModelId.DefaultGenericTypeNamingStrategy
+===2019-10-15 15:28:29.535 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/findDeviceDetailById.com.thingjs.soho.device.controller.DeviceController.findDeviceDetailByModelId.DefaultGenericTypeNamingStrategy
+===2019-10-15 15:28:29.536 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findDeviceDetailByModelId was device-controller
+===2019-10-15 15:28:29.537 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findDeviceDetailByModelId was device-controller
+===2019-10-15 15:28:29.578 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+===2019-10-15 15:28:29.607 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:202 - Tomcat started on port(s): 8080 (http) with context path ''
+===2019-10-15 15:28:29.610 INFO  com.thingjs.soho.SoHoApplication Line:59  - Started SoHoApplication in 7.51 seconds (JVM running for 8.695)
+===2019-10-15 15:28:38.284 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+===2019-10-15 15:28:38.284 INFO  org.springframework.web.servlet.DispatcherServlet Line:524 - Initializing Servlet 'dispatcherServlet'
+===2019-10-15 15:28:38.300 INFO  org.springframework.web.servlet.DispatcherServlet Line:546 - Completed initialization in 16 ms
+===2019-10-15 15:28:38.427 INFO  com.thingjs.soho.config.WebLogAspect Line:160 - 执行环绕通知的目标方法：com.thingjs.soho.device.controller.DeviceController.findDeviceDetailByModelId
+===2019-10-15 15:28:38.427 INFO  com.thingjs.soho.config.WebLogAspect Line:162 - ARGS : [28929]
+===2019-10-15 15:28:38.427 INFO  com.thingjs.soho.config.WebLogAspect Line:89  - 前置通知
+===2019-10-15 15:28:38.428 INFO  com.thingjs.soho.config.WebLogAspect Line:91  - ARGS : [28929]
+===2019-10-15 15:28:38.428 INFO  com.thingjs.soho.config.WebLogAspect Line:98  - 代理的哪个方法：findDeviceDetailByModelId
+===2019-10-15 15:28:38.428 INFO  com.thingjs.soho.config.WebLogAspect Line:99  - 代理的类全名：com.thingjs.soho.device.controller.DeviceController
+===2019-10-15 15:28:38.429 INFO  com.thingjs.soho.config.WebLogAspect Line:102 - com.thingjs.soho.device.controller.DeviceController
+===2019-10-15 15:28:38.469 INFO  com.thingjs.soho.config.WebLogAspect Line:116 - 请求的参数为：{"modelId":"28929"}
+===2019-10-15 15:28:38.471 INFO  com.thingjs.soho.config.WebLogAspect Line:119 - 请求的参数_2为：{"modelId":["28929"]}
+===2019-10-15 15:28:38.578 INFO  com.thingjs.soho.config.WebLogAspect Line:89  - 前置通知
+===2019-10-15 15:28:38.578 INFO  com.thingjs.soho.config.WebLogAspect Line:91  - ARGS : [28929]
+===2019-10-15 15:28:38.578 INFO  com.thingjs.soho.config.WebLogAspect Line:98  - 代理的哪个方法：findDeviceDetailByModelId
+===2019-10-15 15:28:38.578 INFO  com.thingjs.soho.config.WebLogAspect Line:99  - 代理的类全名：com.thingjs.soho.device.controller.DeviceController
+===2019-10-15 15:28:38.579 INFO  com.thingjs.soho.config.WebLogAspect Line:102 - com.thingjs.soho.device.controller.DeviceController
+===2019-10-15 15:28:38.579 INFO  com.thingjs.soho.config.WebLogAspect Line:116 - 请求的参数为：{"modelId":"28929"}
+===2019-10-15 15:28:38.579 INFO  com.thingjs.soho.config.WebLogAspect Line:119 - 请求的参数_2为：{"modelId":["28929"]}
+===2019-10-15 15:28:38.585 INFO  com.thingjs.soho.config.WebLogAspect Line:166 - 执行环绕通知完成！！
+===2019-10-15 15:28:38.586 INFO  com.thingjs.soho.config.WebLogAspect Line:155 - 后置最终通知执行完毕！！
+===2019-10-15 15:28:38.586 INFO  com.thingjs.soho.config.WebLogAspect Line:135 - 第一个后置返回通知返回的结果：Result(code=-1, msg=该设备不存在, data=null)
+===2019-10-15 15:28:38.586 INFO  com.thingjs.soho.config.WebLogAspect Line:137 - ARGS : [28929]
+===2019-10-15 15:28:38.586 INFO  com.thingjs.soho.config.WebLogAspect Line:143 - 第二个后置返回通知返回的结果：Result(code=-1, msg=该设备不存在, data=null)
+===2019-10-15 15:28:54.824 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+===2019-10-15 15:28:54.828 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:597 - Closing JPA EntityManagerFactory for persistence unit 'default'
+===2019-10-15 15:28:54.837 INFO  com.alibaba.druid.pool.DruidDataSource Line:1823 - {dataSource-1} closed

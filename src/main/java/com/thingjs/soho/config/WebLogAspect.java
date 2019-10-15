@@ -8,6 +8,7 @@ import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.*;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
@@ -81,6 +82,14 @@ public class WebLogAspect {
      *
      *
      *    参数绑定args()：如@Before("execution(* findById*(..)) &&" + "args(id,..)")
+     *
+     *    当定义在不同的切面里的两个通知都需要在一个相同的连接点中运行， 那么除非你指定，否则执行的顺序是未知的。
+     *    你可以通过指定优先级来控制执行顺序。
+     *    在标准的Spring方法中可以在切面类中实现org.springframework.core.Ordered 接口或者用Order注解做到这一点。
+     *    在两个切面中， Ordered.getValue()方法返回值（或者注解值）较低的那个有更高的优先级。
+     *    在“进入”连接点的情况下，最高优先级的通知会先执行（所以给定的两个前置通知中，优先级高的那个会先执行）。
+     *    在“退出”连接点的情况下，最高优先级的通知会最后执行。（所以给定的两个后置通知中， 优先级高的那个会第二个执行）。
+     *
      * */
 
     @Before(value = "webLog()")
@@ -123,12 +132,13 @@ public class WebLogAspect {
 
 
            //execution(public * com.thingjs.soho.device.controller..*.*(..))
-    @Before("execution(* findById*(..)) &&" + "args(id,..)")
-    public void twiceAsOld1(Long id){
-        System.err.println ("切面before执行了。。。。id==" + id);
-    }
+//    @Before("execution(* findById*(..)) &&" + "args(id,..)")
+//    public void twiceAsOld1(Long id){
+//        System.err.println ("切面before执行了。。。。id==" + id);
+//    }
 
     @AfterReturning(value = "webLog()",returning = "keys")
+//    @Order(1)
     public void afterReturningAdvice1(JoinPoint joinPoint,Object keys){
         log.info("第一个后置返回通知返回的结果："+keys);
         //获取目标方法的参数信息
@@ -136,6 +146,7 @@ public class WebLogAspect {
     }
 
     @AfterReturning(value = "webLog()",returning = "keys",argNames = "keys")
+//    @Order(2)
     public void afterReturningAdvice2(Object keys){
         log.info("第二个后置返回通知返回的结果："+keys);
     }
